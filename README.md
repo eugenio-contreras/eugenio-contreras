@@ -31,12 +31,12 @@ object AboutMe extends App {
     role = "Senior Data Engineer / Data Platform Architect",
     location = "Düsseldorf, Germany",
     stack = TechStack(
-      languages     = Seq("Python", "Java", "Scala", "Go", "Rust", "SQL"),
-      storage       = Seq("ClickHouse", "BigQuery", "Bigtable", "PostgreSQL", "Firestore", "SQLite", "LanceDB"),
+      languages     = Seq("Python", "Java", "Scala", "Go", "Rust"),
+      storage       = Seq("ClickHouse", "BigQuery", "Bigtable", "PostgreSQL", "Firestore", "MongoDB", "Cassandra),
       ingestion     = Seq("Apache Kafka", "Pub/Sub", "Airbyte"),
       processing    = Seq("Apache Beam/Dataflow", "Apache Flink", "dbt"),
       orchestration = Seq("Dagster", "Airflow"),
-      infra         = Seq("Kubernetes", "Docker", "CI/CD", "GCP", "AWS", "Azure"),
+      infra         = Seq("Kubernetes", "Docker", "CI/CD", "Jenkins", "GCP", "AWS", "Azure"),
       tools         = Seq("Neovim", "Ghostty")
     ),
     // Long runs and zero-downtime deployments.
