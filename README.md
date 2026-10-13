@@ -1,5 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:FF00A0,100:00F0FF&height=100&section=header)
-
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:020B1F,50:0B3D91,100:00FF9C&height=120&section=header&animation=twinkling)
 # Hi, I'm Eugenio <img src="resources/programmer.gif" width="40" alt="programmer" />
 
 ![python](https://img.shields.io/badge/python-0D0221?style=flat-square&logo=python&logoColor=00F0FF)
@@ -42,7 +41,7 @@ object AboutMe extends App {
     location = "Düsseldorf, Germany",
     stack = TechStack(
       languages     = Seq("Python", "Java", "Scala", "Go", "Rust", "SQL"),
-      storage       = Seq("ClickHouse", "BigQuery", "Bigtable", "PostgreSQL", "Firestore", "SQLite", "MongoDB"),
+      storage       = Seq("ClickHouse", "BigQuery", "Bigtable", "PostgreSQL", "Firestore", "MongoDB"),
       ingestion     = Seq("Apache Kafka", "Pub/Sub", "Airbyte"),
       processing    = Seq("Apache Beam/Dataflow", "Apache Flink", "dbt"),
       orchestration = Seq("Dagster", "Airflow"),
@@ -56,5 +55,4 @@ object AboutMe extends App {
   println(s"${eugenio.name} | ${eugenio.role} | ${eugenio.location}")
 }
 ```
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:FF00A0&height=80&section=footer)
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:00FF9C,50:0B3D91,100:020B1F&height=100&section=footer&reversal=true)
