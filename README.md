@@ -1,10 +1,20 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:FF00A0,100:00F0FF&height=100&section=header)
+
 # Hi, I'm Eugenio <img src="resources/programmer.gif" width="40" alt="programmer" />
 
-![python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white)
-![java](https://img.shields.io/badge/java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![scala](https://img.shields.io/badge/scala-DC322F?style=flat-square&logo=scala&logoColor=white)
-![go](https://img.shields.io/badge/go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![rust](https://img.shields.io/badge/rust-000000?style=flat-square&logo=rust&logoColor=white)
+![python](https://img.shields.io/badge/python-0D0221?style=flat-square&logo=python&logoColor=00F0FF)
+![java](https://img.shields.io/badge/java-0D0221?style=flat-square&logo=openjdk&logoColor=FCEE0A)
+![scala](https://img.shields.io/badge/scala-0D0221?style=flat-square&logo=scala&logoColor=FF00A0)
+![go](https://img.shields.io/badge/go-0D0221?style=flat-square&logo=go&logoColor=00F0FF)
+![rust](https://img.shields.io/badge/rust-0D0221?style=flat-square&logo=rust&logoColor=FCEE0A)
+
+![clickhouse](https://img.shields.io/badge/clickhouse-0D0221?style=flat-square&logo=clickhouse&logoColor=FCEE0A)
+![kafka](https://img.shields.io/badge/kafka-0D0221?style=flat-square&logo=apachekafka&logoColor=FF00A0)
+![flink](https://img.shields.io/badge/flink-0D0221?style=flat-square&logo=apacheflink&logoColor=00F0FF)
+![dbt](https://img.shields.io/badge/dbt-0D0221?style=flat-square&logo=dbt&logoColor=FF00A0)
+![dagster](https://img.shields.io/badge/dagster-0D0221?style=flat-square&logo=dagster&logoColor=FCEE0A)
+![kubernetes](https://img.shields.io/badge/kubernetes-0D0221?style=flat-square&logo=kubernetes&logoColor=00F0FF)
+![gcp](https://img.shields.io/badge/gcp-0D0221?style=flat-square&logo=googlecloud&logoColor=FF00A0)
 
 ```scala
 case class TechStack(
@@ -31,8 +41,8 @@ object AboutMe extends App {
     role = "Senior Data Engineer / Data Platform Architect",
     location = "Düsseldorf, Germany",
     stack = TechStack(
-      languages     = Seq("Python", "Java", "Scala", "Go", "Rust"),
-      storage       = Seq("ClickHouse", "BigQuery", "Bigtable", "PostgreSQL", "Firestore", "MongoDB", "Cassandra),
+      languages     = Seq("Python", "Java", "Scala", "Go", "Rust", "SQL"),
+      storage       = Seq("ClickHouse", "BigQuery", "Bigtable", "PostgreSQL", "Firestore", "SQLite", "MongoDB"),
       ingestion     = Seq("Apache Kafka", "Pub/Sub", "Airbyte"),
       processing    = Seq("Apache Beam/Dataflow", "Apache Flink", "dbt"),
       orchestration = Seq("Dagster", "Airflow"),
@@ -46,3 +56,5 @@ object AboutMe extends App {
   println(s"${eugenio.name} | ${eugenio.role} | ${eugenio.location}")
 }
 ```
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:FF00A0&height=80&section=footer)
